@@ -164,7 +164,7 @@ const projects = [
     </div>
     
     <footer class="border-t border-slate-800/50 mt-20 py-10 text-center text-slate-500 w-full relative z-10 bg-slate-950/80 backdrop-blur-lg">
-      <p class="text-sm font-medium">© {{ new Date().getFullYear() }} Raamesh Bala. Built with Vue & shadcn-vue.</p>
+      <p class="text-sm font-medium">© {{ new Date().getFullYear() }} Raamesh Balabhadrapatruni. Built with Vue & shadcn-vue.</p>
     </footer>
   </div>
 </template>
