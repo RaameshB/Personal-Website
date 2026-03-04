@@ -10,7 +10,7 @@
         href="https://antigravity.google/"
         target="_blank"
         rel="noopener noreferrer"
-        class="font-medium text-blue-600 dark:text-blue-400 hover:underline"
+        class="font-medium hover:underline"
         >
         antigravity
         </a>
