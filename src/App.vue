@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import ProjectsPage from '@/components/ProjectsPage.vue';
+import Footer from '@/components/Footer.vue';
 
 const currentPath = ref(window.location.hash)
 
@@ -163,9 +164,7 @@ const projects = [
       <ProjectsPage />
     </div>
     
-    <footer class="border-t border-slate-800/50 mt-20 py-10 text-center text-slate-500 w-full relative z-10 bg-slate-950/80 backdrop-blur-lg">
-      <p class="text-sm font-medium">© {{ new Date().getFullYear() }} Raamesh Balabhadrapatruni. Built with Vue & shadcn-vue.</p>
-    </footer>
+    <Footer />
   </div>
 </template>
 
