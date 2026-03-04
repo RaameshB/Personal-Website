@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
-import { Github, Linkedin, Mail, Code2, ExternalLink, Twitter, MessageSquare, Gitlab } from 'lucide-vue-next';
+import { Github, Linkedin, Mail, Code2, ExternalLink, Twitter, Gitlab } from 'lucide-vue-next';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -75,9 +75,6 @@ const projects = [
           </a>
           <a href="https://twitter.com/raameshb_" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-indigo-400 transition-colors">
             <Twitter class="w-5 h-5 sm:w-6 sm:h-6" />
-          </a>
-          <a href="https://www.reddit.com/user/RaameshB" title="Reddit Profile" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-indigo-400 transition-colors">
-            <MessageSquare class="w-5 h-5 sm:w-6 sm:h-6" />
           </a>
         </nav>
       </div>
